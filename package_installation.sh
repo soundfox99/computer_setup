@@ -1,6 +1,5 @@
-sudo apt update -y
-sudo apt upgrade -y
-sudo apt install -y \
+sudo pacman -Syu
+sudo pacman -S \
 	git \
-	curl \
-	stow
+	stow \
+	curl --noconfirm
