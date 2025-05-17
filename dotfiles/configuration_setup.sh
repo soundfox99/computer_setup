@@ -1,4 +1,9 @@
 stow -t ~ \
 	git \
-	hyperland \
+	hyprland \
+	backgrounds \
+	starship \
+	bashrc \
+	kitty \
+	wofi \
 	waybar

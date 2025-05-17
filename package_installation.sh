@@ -21,4 +21,7 @@ yay -S hyprshot	\
 	hyprshot \
 	swaync \
 	hyprlock \
+	hyprpaper \
+	starship \
+	ttf-cascadeia-code-nerd \
 	hypridle
