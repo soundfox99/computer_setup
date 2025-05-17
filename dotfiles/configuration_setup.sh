@@ -1,1 +1,4 @@
-stow -t ~ git
+stow -t ~ \
+	git \
+	hyperland \
+	waybar
