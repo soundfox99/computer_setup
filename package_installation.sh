@@ -1,5 +1,24 @@
 sudo pacman -Syu
-sudo pacman -S \
+
+sudo pacman -S -needed base-devel
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+cd ..
+sudo rm -r yay
+
+yay -S hyprshot	\
 	git \
 	stow \
-	curl --noconfirm
+	kitty \
+	hyprland \
+	ttf-font \
+	awesome \
+	wofi \
+	firefox \
+	waybar \
+	curl \
+	hyprshot \
+	swaync \
+	hyprlock \
+	hypridle
