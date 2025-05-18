@@ -24,4 +24,11 @@ yay -S hyprshot	\
 	hyprpaper \
 	starship \
 	ttf-cascadeia-code-nerd \
-	hypridle
+	locate \
+	fzf \
+	bat \
+	neovim \
+	less \
+    hypridle
+
+curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
