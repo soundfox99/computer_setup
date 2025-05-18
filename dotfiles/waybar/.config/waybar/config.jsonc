@@ -22,6 +22,9 @@
     "format-icons": ["", "", "", "", ""],
     "tooltip-format": "{time}"
   },
+  "battery#bat0": {
+    "bat": "BAT0"
+  },	
   "network": {
     "format-wifi": "<span size='13000' foreground='#f5e0dc'>  </span>{essid}",
     "format-ethernet": "<span size='13000' foreground='#f5e0dc'>󰤭  </span> Disconnected",
