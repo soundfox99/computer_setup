@@ -29,6 +29,12 @@ yay -S hyprshot	\
 	bat \
 	neovim \
 	less \
-    hypridle
+    	pipewire \
+	pipewire-pulse \
+	wireplumber \
+	bluez \
+	bluez-utils \
+	blueman \
+	hypridle
 
 curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
