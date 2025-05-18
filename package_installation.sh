@@ -35,6 +35,8 @@ yay -S hyprshot	\
 	bluez \
 	bluez-utils \
 	blueman \
+	nwg-look \
+	catppuccin-gtk-theme-mocha \
 	hypridle
 
 curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
