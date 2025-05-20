@@ -7,36 +7,6 @@ makepkg -si
 cd ..
 sudo rm -r yay
 
-yay -S hyprshot	\
-	git \
-	stow \
-	kitty \
-	hyprland \
-	ttf-font \
-	awesome \
-	wofi \
-	firefox \
-	waybar \
-	curl \
-	hyprshot \
-	swaync \
-	hyprlock \
-	hyprpaper \
-	starship \
-	ttf-cascadeia-code-nerd \
-	locate \
-	fzf \
-	bat \
-	neovim \
-	less \
-    	pipewire \
-	pipewire-pulse \
-	wireplumber \
-	bluez \
-	bluez-utils \
-	blueman \
-	nwg-look \
-	catppuccin-gtk-theme-mocha \
-	hypridle
+yay -S --needed - < package_list.txt
 
 curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
