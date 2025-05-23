@@ -27,6 +27,7 @@ iwd 3.8-1
 kate 25.04.1-1
 kitty 0.42.0-1
 konsole 25.04.1-1
+lazydocker 0.24.1-1
 less 1:668-1
 libpulse 17.0+r43+g3e2bb8a1e-1
 libva-intel-driver 2.4.1-5
@@ -49,6 +50,7 @@ plocate 1.1.23-1
 polkit-kde-agent 6.3.5-1
 qt5-wayland 5.15.16+kde+r60-1
 qt6-wayland 6.9.0-2
+ruby 3.4.3-2
 slurp 1.5.0-1
 smartmontools 7.5-1
 sof-firmware 2025.01.1-1
@@ -58,6 +60,7 @@ swaync 0.11.0-1
 tree 2.2.1-1
 ttf-cascadia-code-nerd 3.4.0-1
 ttf-font-awesome 6.7.2-1
+unzip 6.0-22
 vim 9.1.1376-1
 vulkan-intel 1:25.0.5-1
 vulkan-nouveau 1:25.0.5-1
