@@ -9,6 +9,10 @@ sudo rm -r yay
 
 yay -S --needed - < package_list.txt
 
-git clone git@github.com:tmux-plugins/tpm.git
+git clone git@github.com:tmux-plugins/tpm.git ~/.tmux/plugins/tpm
 
 curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+
+sudo usermod -aG docker $USER
+
+newgrp docker
